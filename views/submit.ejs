@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+
+<div class="container">
+  <div class="Bgg centered">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-3">Welcome</h1>
+    <p class="secret-text">Share Your Experience Here</p>
+
+    <form action="/submit" method="POST">
+
+      <div class="form-group">
+        <label>Title</label>
+        <input class="form-control" type="text" name="title" style="background: transparent;">
+        <label>Post</label>
+        <textarea class="form-control" name="secret" rows="5" cols="30" style="background: transparent;"></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark">Publish</button>
+    </form>
+
+
+  </div>
+</div>
+<%- include('partials/footer') %>
