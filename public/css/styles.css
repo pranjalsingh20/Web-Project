@@ -1,0 +1,26 @@
+
+body {
+  background-image: url("p1.jpg");
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+
+}
+.Bgg{
+  background-image: url("p2.jpg");
+  background-size: 100% 100%;
+}
+.Bggg{
+  background-color: rgb(179, 223, 208);
+}
+
+.centered {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  
+}
